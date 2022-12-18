@@ -1,25 +1,23 @@
-  nav {
-    background-color: #b7f0e7;
-    height: 60px;
-  }
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-family: 'Bree Serif', serif;
-    font-size: large;
-  }
-  
-  li {
-    padding: 10px;
-    
-  }
-  
-  a {
-    color: rgb(87, 28, 191);
-    
-  }
-  .active {
-    font-weight: bold;
-  }
+nav {
+  background-color: #2b2b2b;
+  height: 70px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: "Bree Serif", serif;
+  font-size: large;
+}
+
+li {
+  padding: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+.active {
+  font-weight: bold;
+}
